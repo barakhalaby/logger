@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: grey
+}
+
+.flexStatsContainer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.flexContainer  {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.ERROR {
+    color:red
+}
+
+.WARNING {
+    color:orange
+}
+.INFO {
+    color:yellowgreen
+}
+
+.button {
+ background: white;
+ border:black;
+ width:100px;
+ padding:5px;
+}
+
+
+.flexContainer .flexItem {
+    flex: 1 1 ;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
